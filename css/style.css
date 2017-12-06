@@ -1,0 +1,270 @@
+.headerbg{
+  background-color: white;
+}
+.landingimage{
+  background-image: url(../imagefile/landing.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%; auto;
+  background-position: center;
+}
+/* navigation */
+
+.logo{
+  background-image: url("..imagefile/logo.jpeg");
+}
+.navq{
+  padding-top: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #00006E
+}
+.navhead{
+  padding-top: 90px;
+}
+
+/* Links */
+
+
+a {
+    color: #00006E;
+}
+a:active{
+    color: #dddddd ;
+}
+a:hover {
+    color: #dddddd ;
+    text-decoration: none;
+}
+
+/* This is the box in the top right of the header */
+
+.linea{
+  padding-top: 0px;
+  border-left: thick solid #00006E;
+  height: 140px;
+}
+.headbox{
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #00006E;
+}
+
+
+
+/* this is the donation button in the header on the right */
+
+.donation{
+  margin-top: 20px;
+  margin-right: 120px;
+  padding-left: none;
+}
+
+.donation a{
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid #00006E;
+  padding:5px;
+}
+.donation a:hover {
+    color: #dddddd ;
+    border: solid #dddddd;
+    text-decoration: none;
+}
+
+/* This is the email address in the right box of the header */
+
+.lilmail{
+  padding-top:0px;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #00006E
+}
+
+/* landing page */
+
+.lilmail2{
+  padding-top:8px;
+  font-size: 12px;
+  letter-spacing:0.3px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #ffffff;
+}
+.landingtext{
+  margin-top: 75;
+  color: #ffffff;
+  height: 500px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+.smallt{
+  font-size:30px;
+  font-weight:normal;
+  margin-top: 20px;
+  letter-spacing: 0px;
+}
+/* footer */
+
+.indexfooter{
+  margin-top: none;
+  padding-left: 25px;
+}
+.footer{
+  background-color: #00002E;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 20px;
+  height: 150px;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+
+/* newsletter button on footer */
+
+.newslettercall{
+  font-size: 14px;
+  text-transform: lowercase;
+  margin-top: none;
+}
+.newsletterbox{
+  color: #999999;
+  margin-right: 20px;
+  padding: 0px;
+}
+.submitbutton{
+  background-color: #ffffff;
+  color: #999999;
+  padding-top: 2px;
+
+}
+
+/* about page */
+
+.about-bg{
+  background-color: #dddddd;
+  padding-top: 85px;
+}
+
+.mission-text{
+  font-size: 24px;
+  padding-top: 40px;
+
+}
+
+.spacera{
+  height: 60px;
+}
+.spacer-b{
+  height: 30px;
+}
+
+.about-text{
+  font-size: 18px;
+  line-height: 36px;
+}
+.on-page-links{
+  line-height: 36px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.on-page-links a{
+  color: #ffffff;
+  font-size: 18px;
+}
+.on-page-links a:hover{
+  color: #00006E;
+  font-size: 18px;
+}
+
+/* board of directors section of about page */
+
+.board-of-directors{
+  background-color: #ffffff;
+}
+.boardset{
+  background-color: #00002E;
+  height: 800px;
+  /*opacity: .75;*/
+}
+.boardimg{
+  padding-top: 60px;
+}
+.bodtitle{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 0px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.bodtitle-b{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 70px;
+  color: #ffffff
+}
+.bodx{
+  padding-bottom:20px;
+}
+
+.bod-text{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+.push-down{
+  padding-top: 40px;
+}
+.push-down-more{
+  padding-top: 115px;
+}
+.push-down-more2{
+  padding-top: 360px;
+}
+
+/* for mobile */
+
+
+
+/*breakpoints*/
+
+.mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media (max-width: 400px) {
+    .menuicon{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        align: right;
+        position: relative;
+        left: 340px;
+        bottom: 50px;
+    }
+    .mobile-display{
+      display: auto;
+    }
+    .desk-display{
+      display: none;
+    }
+  }
+  @media (min-width: 401px) {
+    .mobile-display{
+      display: none;
+    }
+    .desk-display{
+      display: auto;
+    }
+  }
